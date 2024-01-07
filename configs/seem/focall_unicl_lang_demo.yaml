@@ -10,6 +10,8 @@ PIPELINE: XDecoderPipeline
 TRAINER: xdecoder
 SAVE_DIR: '../../data/output/test'
 base_path: "./"
+CUDA: true
+GPU: 0
 
 # Resume Logistic
 RESUME: false
